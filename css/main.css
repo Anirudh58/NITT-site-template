@@ -678,14 +678,13 @@ input, select {
 
 .our-campus ul {
   padding: 0;
-  margin: 0;
   list-style: none;
 }
 .our-campus ul li {
   float: left;
 }
 .our-campus ul li img {
-  opacity: .5;
+  opacity: .9;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -1266,4 +1265,29 @@ input, select {
 
 .panel{
   padding: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
