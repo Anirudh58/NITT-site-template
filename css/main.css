@@ -1291,3 +1291,11 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
+
+.navbar-nav > li{
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
